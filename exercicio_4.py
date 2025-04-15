@@ -57,4 +57,4 @@ for i in lista_nova:
     if i > max_leituras_lista_nova:
         max_leituras_lista_nova = i        
 
-print(f'O organismo com maior média é o da posição {lista_nova.index(max_leituras_lista_nova) + 1} da lista')
+print(f'O organismo com maior média é o da posição {lista_nova.index(max_leituras_lista_nova)} da lista')
