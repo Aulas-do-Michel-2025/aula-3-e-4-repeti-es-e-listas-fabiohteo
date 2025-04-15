@@ -25,3 +25,13 @@ Pode-se utilizar o comando "while" ou até o "for" para te ajudar nisso.
 
 Fonte: Curso em vídeo.
 """
+
+umero = int(input("Digite um número: "))
+
+multiplicacao = 1
+
+for i in range(numero):
+    fator = numero - i
+    multiplicacao = multiplicacao * fator
+
+print(f"O fatorial de {numero} é {multiplicacao}")
