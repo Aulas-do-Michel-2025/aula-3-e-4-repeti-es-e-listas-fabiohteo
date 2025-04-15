@@ -23,3 +23,13 @@ Os números ímpares são [1, 3, 5]
 lista = [*map(int, input("Digite a sua lista (separando os números por vírgula): ").split(","))]
 
 # Fazer a partir daqui...
+
+lista = [*map(float, input("Digite a sua lista (separando os Números por vírgula): ").split(","))]
+
+lista_nova = []
+
+for i in lista:
+    if i % 3 == 0:
+        lista_nova.append(int(i))
+
+print(f"Os números ímpares são {lista_nova}")
