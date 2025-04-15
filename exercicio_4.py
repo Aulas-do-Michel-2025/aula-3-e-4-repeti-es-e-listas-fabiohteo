@@ -37,7 +37,7 @@ O cálculo de média já foi feito em sala e pode ser usado de exemplo.
 """
 
 # Lista
-lista_de_organismos = [[50, 50, 50], [125, 99, 12], [19, 91, 42], [40, 189, 0], [1, 0, 0], [100, 100, 70], [99, 12, 12]]
+# lista_de_organismos = [[50, 50, 50], [125, 99, 12], [19, 91, 42], [40, 189, 0], [1, 0, 0], [100, 100, 70], [99, 12, 12]]
 
 # Fazer a partir daqui
 
