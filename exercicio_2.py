@@ -30,6 +30,6 @@ lista_nova = []
 
 for i in lista:
     if i % 3 == 0:
-        lista_nova.append(int(i))
+        lista_nova.append(i)
 
 print(f"Os números ímpares são {lista_nova}")
