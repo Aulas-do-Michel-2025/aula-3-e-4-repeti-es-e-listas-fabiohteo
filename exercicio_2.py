@@ -29,7 +29,7 @@ lista = [*map(float, input("Digite a sua lista (separando os Números por vírgu
 lista_nova = []
 
 for i in lista:
-    if i % 3 == 0:
-        lista_nova.append(i)
+    if i % 2 != 0:
+        lista_nova.append(int(i))
 
 print(f"Os números ímpares são {lista_nova}")
